@@ -1,4 +1,4 @@
-const socket = io(`https://git.heroku.com/realtime-chat-app-by-abinash.git`);
+const socket = io(`http://localhost:8000/`);
 
 const form=document.getElementById('send-container');
 const messageinp=document.getElementById('messageInp');
